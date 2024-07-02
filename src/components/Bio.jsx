@@ -13,7 +13,7 @@ export default function Bio() {
             </div>
             <h2 className="skills--title">Skills</h2>
             <div className="skills">
-                <img className="skills--img" src="../src/assets/html.png" />
+                <img className="skills--img" src="./src/assets/html.png" />
                 <img className="skills--img" src="../src/assets/css.png" />
                 <img className="skills--img" src="../src/assets/bootstrap.png" />
                 <img className="skills--img" src="../src/assets/js.png" />
