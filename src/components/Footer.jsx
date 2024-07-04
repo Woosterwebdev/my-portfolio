@@ -1,5 +1,5 @@
 import React from "react"
-import github from "../assets/github.png"
+import github from "../assets/github.svg"
 import linkedin from "../assets/linkedin.svg"
 import email from "../assets/email.svg"
 

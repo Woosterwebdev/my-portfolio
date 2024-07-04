@@ -9,7 +9,7 @@ import nodejs from '../assets/nodejs.png'
 import npm from '../assets/npm.png'
 import postgre from '../assets/postgre.png'
 import git from '../assets/git.png'
-import github from '../assets/github.png'
+import github from '../assets/github.svg'
 import firebase from '../assets/firebase.png'
 
 export default function Bio() {
