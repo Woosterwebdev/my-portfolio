@@ -31,6 +31,10 @@ nav {
   padding: 8px;
 }
 
+.max-width {
+  max-width: 800px;
+}
+
 /*---Flex---*/
 
 .content,

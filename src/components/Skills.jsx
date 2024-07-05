@@ -13,7 +13,7 @@ import firebase from '../assets/firebase.png'
 
 export default function Skills() {
     return (
-        <div className="skills">
+        <div className="skills max-width">
             <h2 className="title">Skills</h2>
             <div className="skills--list">
                 <img className="skills--img" src={html} />

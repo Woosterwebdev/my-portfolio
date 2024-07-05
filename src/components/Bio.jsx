@@ -3,7 +3,7 @@ import chris from '../assets/chris.png'
 
 export default function Bio() {
     return (
-        <div className="bio">    
+        <div className="bio max-width">    
             <img className="bio--img" src={chris} />
             <h2 className="title m-10">I am a self taught Web Developer</h2>
             <p className="bio--content m-0">Since late 2021, I have been working on learning Web development. I began using Udemy courses in my spare 
