@@ -4,8 +4,8 @@ import construction from "../assets/construction.jpg"
 export default function Demos() {
     return (
         <div className="demos">
-            <h2 className="demos--title">Demos</h2>
-            <p className="demos--content">Demos coming soon</p>
+            <h2 className="title">Demos</h2>
+            <p className="demos--content m-0">Demos coming soon</p>
             <img className="demos--img" src={construction} />
         </div>
     )

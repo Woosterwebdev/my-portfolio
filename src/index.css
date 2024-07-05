@@ -13,6 +13,10 @@ body {
   margin: 0;
 }
 
+.m-10 {
+  margin: 10px;
+}
+
 /*---NAV---*/
 
 nav {
@@ -27,38 +31,57 @@ nav {
   padding: 8px;
 }
 
-/*---Bio/skills---*/
+/*---Flex---*/
 
 .content,
 .bio-skills,
 .bio,
-.skills {
+.skills,
+.skills--list,
+.demos,
+.footer,
+.footer--contacts {
   display: flex;
+}
+
+.content,
+.bio-skills,
+.bio,
+.skills,
+.demos,
+.footer {
+  flex-direction: column;
   align-items: center;
 }
 
-.content {
-  flex-direction: column;
-}
-
-.bio-skills {
-  flex-direction: column;
+.bio-skills,
+.bio,
+.skills,
+.demos {
   width: 90%;
 }
 
 /*---Bio---*/
 
 .bio {
-  flex-direction: column;
+  text-align: center;
 }
 
 .bio--img {
   width: 175px;
 }
 
+.title {
+  font-size: 1.4rem;
+}
+
+.bio--content {
+  line-height: 1.5rem;
+}
+
 /*---Skills---*/
 
-.skills {
+.skills--list {
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -70,10 +93,7 @@ nav {
 /*---Demos---*/
 
 .demos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
+  margin-bottom: 25px;
 }
 
 .demos--img {
@@ -82,6 +102,17 @@ nav {
 
 /*---Footer---*/
 
+.footer {
+  background: #1d1d1d;
+}
+
+.footer--contacts {
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
 .footer--img {
-  width: 100px;
+  margin-top: 20px;
+  width: 60px;
 }
