@@ -9,6 +9,10 @@ body {
   color: #FFF;
 }
 
+.m-0 {
+  margin: 0;
+}
+
 /*---NAV---*/
 
 nav {
@@ -18,7 +22,66 @@ nav {
 }
 
 .nav--title {
-  margin: 0;
+  margin-bottom: 15px;
   font-size: 2rem;
+  padding: 8px;
 }
 
+/*---Bio/skills---*/
+
+.content,
+.bio-skills,
+.bio,
+.skills {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  flex-direction: column;
+}
+
+.bio-skills {
+  flex-direction: column;
+  width: 90%;
+}
+
+/*---Bio---*/
+
+.bio {
+  flex-direction: column;
+}
+
+.bio--img {
+  width: 175px;
+}
+
+/*---Skills---*/
+
+.skills {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills--img {
+  width: 100px;
+}
+
+/*---Demos---*/
+
+.demos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.demos--img {
+  width: 100%;
+}
+
+/*---Footer---*/
+
+.footer--img {
+  width: 100px;
+}
