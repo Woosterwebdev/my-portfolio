@@ -32,3 +32,14 @@ export default function Skills() {
         
     )
 }
+
+// export default function Skills(props) {
+//     return (
+//         <div className="skills max-width">
+//             <h2 className="title">Skills</h2>
+//             <div className="skills--list">
+//                 <img className="skills--img" src={props.image} />
+//             </div>
+//         </div>
+//     )
+// }
