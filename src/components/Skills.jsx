@@ -1,4 +1,6 @@
 import React from "react"
+import data from "./data"
+import Language from "/src/components/Language"
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import bootstrap from '../assets/bootstrap.png'
@@ -11,35 +13,47 @@ import git from '../assets/git.png'
 import github from '../assets/github.svg'
 import firebase from '../assets/firebase.png'
 
+
 export default function Skills() {
+    const skills = data.map(skill => {
+        return (
+            <Language 
+                key={skill.id}
+                name={skill.name}
+                image={skill.image}
+            />
+        )
+    })
+    
     return (
         <div className="skills max-width">
             <h2 className="title">Skills</h2>
             <div className="skills--list">
-                <img className="skills--img" src={html} />
-                <img className="skills--img" src={css} />
-                <img className="skills--img" src={bootstrap} />
-                <img className="skills--img" src={js} />
-                <img className="skills--img" src={react} />
-                <img className="skills--img" src={nodejs} />
-                <img className="skills--img" src={npm} />
-                <img className="skills--img" src={postgre} />
-                <img className="skills--img" src={git} />
-                <img className="skills--img" src={github} />
-                <img className="skills--img" src={firebase} />
+                {skills}
             </div>
         </div>
-        
     )
 }
 
-// export default function Skills(props) {
-//     return (
-//         <div className="skills max-width">
-//             <h2 className="title">Skills</h2>
-//             <div className="skills--list">
-//                 <img className="skills--img" src={props.image} />
-//             </div>
-//         </div>
-//     )
-// }
+
+        // export default function Skills() {
+        //     return (
+        //         <div className="skills max-width">
+        //             <h2 className="title">Skills</h2>
+        //             <div className="skills--list">
+        //                 <img className="skills--img" src={html} />
+        //                 <img className="skills--img" src={css} />
+        //                 <img className="skills--img" src={bootstrap} />
+        //                 <img className="skills--img" src={js} />
+        //                 <img className="skills--img" src={react} />
+        //                 <img className="skills--img" src={nodejs} />
+        //                 <img className="skills--img" src={npm} />
+        //                 <img className="skills--img" src={postgre} />
+        //                 <img className="skills--img" src={git} />
+        //                 <img className="skills--img" src={github} />
+        //                 <img className="skills--img" src={firebase} />
+        //             </div>
+        //         </div>
+                
+        //     )
+        // }

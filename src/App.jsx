@@ -16,28 +16,18 @@ export default function App() {
       </div>
       <Footer />
     </div>
-  )
+        )
 }
 
-// const skills = data.map(skill => {
-//   return (
-//       <Skills
-//           key={skill.id}
-//           {...skill}
-//       />
-//   )
-// })
-
-// return (
-//   <div>
-//     <Nav />
-//     <div className="content">
-//       <Bio />
-//       <section>
-//         {skills}
-//       </section>
-//       <Demos />
-//     </div>
-//     <Footer />
-//   </div>
-// )
+      
+      // return (
+      //   <div>
+      //     <Nav />
+      //     <div className="content">
+      //       <Bio />
+      //       <Skills />
+      //       <Demos />
+      //     </div>
+      //     <Footer />
+      //   </div>
+      // )
