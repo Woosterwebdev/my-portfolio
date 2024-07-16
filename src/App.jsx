@@ -9,11 +9,9 @@ export default function App() {
   return (
     <div>
       <Nav />
-      <div className="content">
-        <Bio />
-        <Skills />
-        <Demos />
-      </div>
+      <Bio />
+      <Skills />
+      <Demos />
       <Footer />
     </div>
         )

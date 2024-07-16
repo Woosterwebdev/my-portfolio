@@ -31,13 +31,8 @@ nav {
   padding: 8px;
 }
 
-.max-width {
-  max-width: 800px;
-}
-
 /*---Flex---*/
 
-.content,
 .bio-skills,
 .bio,
 .skills,
@@ -48,7 +43,6 @@ nav {
   display: flex;
 }
 
-.content,
 .bio-skills,
 .bio,
 .skills,
@@ -62,7 +56,7 @@ nav {
 .bio,
 .skills,
 .demos {
-  width: 90%;
+  padding: 20px;
 }
 
 /*---Bio---*/
@@ -88,6 +82,7 @@ nav {
 .skills--list {
   justify-content: center;
   flex-wrap: wrap;
+  gap: 1em;
 }
 
 .skills--img {
@@ -101,7 +96,7 @@ nav {
 }
 
 .demos--img {
-  width: 100%;
+  width: 70%;
 }
 
 /*---Footer---*/
