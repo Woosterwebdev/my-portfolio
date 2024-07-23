@@ -7,6 +7,7 @@ export default function Skills() {
         className="skills--img" 
         src={`/assets/${skill.image}`}
         />})
+        
     return (
         <section className="skills max-width">
             <h2 className="title">Skills</h2>
