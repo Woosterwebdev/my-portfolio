@@ -6,8 +6,9 @@ export default function Skills() {
         <img 
         className="skills--img" 
         src={`/assets/${skill.image}`}
+        alt={skill.name}
         />})
-        
+
     return (
         <section className="skills max-width">
             <h2 className="title">Skills</h2>

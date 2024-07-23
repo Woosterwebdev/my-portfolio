@@ -6,7 +6,7 @@ export default function Demos() {
         <section className="demos">
             <h2 className="title">Demos</h2>
             <p className="demos--content m-0">Demos coming soon</p>
-            <img className="demos--img" src={construction} />
+            <img className="demos--img" src={construction} alt="Under Construction." />
         </section>
     )
 }
