@@ -1,4 +1,5 @@
 import React from "react"
+import data from "data.jsx"
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import bootstrap from '../assets/bootstrap.png'
