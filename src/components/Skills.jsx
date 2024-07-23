@@ -12,37 +12,36 @@ import github from '../assets/github.svg'
 import firebase from '../assets/firebase.png'
 
 
+// export default function Skills() {
+//     return (
+//         <section className="skills">
+//             <h2 className="title">Skills</h2>
+//             <div className="skills--list">
+//                 <img className="skills--img" src={html} />
+//                 <img className="skills--img" src={css} />
+//                 <img className="skills--img" src={bootstrap} />
+//                 <img className="skills--img" src={js} />
+//                 <img className="skills--img" src={react} />
+//                 <img className="skills--img" src={nodejs} />
+//                 <img className="skills--img" src={npm} />
+//                 <img className="skills--img" src={postgre} />
+//                 <img className="skills--img" src={git} />
+//                 <img className="skills--img" src={github} />
+//                 <img className="skills--img" src={firebase} />
+//             </div>
+//         </section>
+        
+//     )
+// }
+    
 export default function Skills() {
+    const skills = data.map(skill => <img className="skills--img" src={`/assets/${skill.image}`} />)
     return (
-        <section className="skills">
+        <section className="skills max-width">
             <h2 className="title">Skills</h2>
             <div className="skills--list">
-                <img className="skills--img" src={html} />
-                <img className="skills--img" src={css} />
-                <img className="skills--img" src={bootstrap} />
-                <img className="skills--img" src={js} />
-                <img className="skills--img" src={react} />
-                <img className="skills--img" src={nodejs} />
-                <img className="skills--img" src={npm} />
-                <img className="skills--img" src={postgre} />
-                <img className="skills--img" src={git} />
-                <img className="skills--img" src={github} />
-                <img className="skills--img" src={firebase} />
+                {skills}
             </div>
         </section>
-        
     )
 }
-    
-    
-    // export default function Skills() {
-        // const skills = data.map(skill => <img className="skills--img" src={skill.name} />)
-        
-        // return (
-        //     <section className="skills max-width">
-        //         <h2 className="title">Skills</h2>
-        //         <div className="skills--list">
-        //             {skills}
-        //         </div>
-        //     </section>
-        // )
