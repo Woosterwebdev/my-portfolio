@@ -9,12 +9,20 @@ body {
   color: #FFF;
 }
 
+section {
+  margin: 0 auto;
+}
+
 .m-0 {
   margin: 0;
 }
 
 .m-10 {
   margin: 10px;
+}
+
+.max-width {
+  max-width: 700px;
 }
 
 .bio-skills,
@@ -94,14 +102,38 @@ nav {
 
 /*---Demos---*/
 
-.demos {
-  margin-bottom: 25px;
+.demos a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.demos--img {
-  width: 100%;
-  max-width: 500px;
+.demos a:visited {
+  color: #fff;
 }
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #363636;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+
+.project-card:hover {
+  border: 1px solid #fff;
+  transform: scale(1.1);
+}
+
+.screenshot {
+  object-position: top;
+  object-fit: cover;
+  width: 100%;
+  max-height: 200px;
+  border-radius: 6px;
+}
+
 
 /*---Footer---*/
 
@@ -119,4 +151,15 @@ nav {
 .footer--img {
   margin-top: 20px;
   width: 60px;
+}
+
+@media (min-width: 700px) {
+  .project-card {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .project-card--title {
+    margin-top: 0;
+  }
 }
