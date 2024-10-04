@@ -115,7 +115,7 @@ nav {
 }
 
 .skills--img:hover {
-  transform: scale(2) rotate(15deg);
+  transform: scale(1.5) rotate(15deg);
   transition: all 0.5s;
 }
 
