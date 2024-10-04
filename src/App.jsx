@@ -16,16 +16,3 @@ export default function App() {
     </>
         )
 }
-
-      
-      // return (
-      //   <div>
-      //     <Nav />
-      //     <div className="content">
-      //       <Bio />
-      //       <Skills />
-      //       <Demos />
-      //     </div>
-      //     <Footer />
-      //   </div>
-      // )
