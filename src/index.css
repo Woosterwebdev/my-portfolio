@@ -114,6 +114,15 @@ nav {
   width: 100px;
 }
 
+.skills--img:hover {
+  transform: scale(2) rotate(15deg);
+  transition: all 0.5s;
+}
+
+.skill {
+  text-align: center;
+}
+
 /*---Demos---*/
 
 .demos {
