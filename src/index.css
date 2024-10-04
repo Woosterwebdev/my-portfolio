@@ -95,9 +95,9 @@ nav {
   background-color: #3200A8;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 10px;
   max-width: 700px;
-  padding: 20px;
+  padding: 20px 0;
   border-radius: 9px;
   width: 90%;
 }
