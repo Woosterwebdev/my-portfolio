@@ -17,5 +17,11 @@ export default [
         title: "Quizzical",
         description: "Using React, JavaScript, and Open Trivia Database API. This movie trivia app has the ability to entertain without falling down a TikTok/Reels/Shorts wormhole and losing track of time.",
         image: "react-screenshot.png"
+    },
+    {
+        id: 4,
+        title: "Chrome Extension",
+        description: "This is a Chrome extension I created to help me track 3D models over various sites. With this app I am able to drastically reduce the number of models I lose track of.",
+        image: "extension-screenshot.png"
     }
 ]

@@ -5,7 +5,7 @@ import data from './project-data'
 
 export default function Project() {
     const projects = data.map(project => {
-        <div key={project.id} className="project-card">
+        <div className="project-card">
             <div>
                 <h3 className="project-card--title">{project.title}</h3>
                 <p>{project.description}</p>
@@ -15,8 +15,8 @@ export default function Project() {
     })
 
     return(
-        <>
+        <div className="projects">
             {projects}
-        </>
+        </div>
     )
 }
