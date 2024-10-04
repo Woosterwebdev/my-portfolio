@@ -9,6 +9,7 @@ export default function Footer() {
                 <a href="mailto:woosterwebdev@gmail.com" target="_blank"><img className="footer--img" src="/assets/email.svg" alt="Christopher Wooster's Email." /></a>
             </div>
             <p className="footer--content">&copy; 2024 Christopher Wooster</p>
+            <a href="https://www.freepik.com/free-vector/realistic-lightning-effect_19343405.htm#page=3&query=png&position=12&from_view=keyword&track=ais_hybrid&uuid=fd820f9b-eca4-4cbb-8b2e-ed1f5d18df4c">Background image provided by Freepik</a>
         </footer>
     )
 }

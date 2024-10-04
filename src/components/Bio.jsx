@@ -20,13 +20,7 @@ export default function Bio() {
     )
 }
 
-/*
 
-Image by <a href="https://www.freepik.com/free-vector/realistic-lightning-effect_19343405.htm#page=3&query=png&position=12&from_view=keyword&track=ais_hybrid&uuid=fd820f9b-eca4-4cbb-8b2e-ed1f5d18df4c">Freepik</a>
-
-
-
-*/
 // document.addEventListener('mousemove', function(e) {
 //     const button = document.getElementById('contact-me')
 //     const offset = 100
