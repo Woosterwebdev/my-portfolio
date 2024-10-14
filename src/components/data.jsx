@@ -53,5 +53,10 @@ export default [
         id: 11,
         name: "Firebase",
         image: "firebase.png"
+    },
+    {
+        id: 12,
+        name: "Python",
+        image: "python.png"
     }
 ]
