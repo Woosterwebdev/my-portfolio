@@ -1,3 +1,4 @@
+/* Data is a list of skills I possess */
 export default [
     {
         id: 1,
